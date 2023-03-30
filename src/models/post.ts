@@ -20,7 +20,8 @@ const postSchema = new Schema({
   },
 
   picture: {
-    type: String
+    type: String,
+    require: true,
   },
 
   create_date: {
